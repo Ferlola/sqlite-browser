@@ -192,14 +192,6 @@ class TableWhere(ConnectDb):
             current_text_where = self.combo_where_option.currentText()
             if current_text_where == "WHERE" or current_text_where == "WHERE NOT":
                 self.create_combobox_operators()
-            """ elif (
-                current_text_where == "WHERE EXISTS(SELECT "
-                or current_text_where == "WHERE NOT EXISTS(SELECT "
-            ):
-                self.create_combobox_where_exists_from_tables1()
-            else:
-                pass """
-
         else:
             self.table_where.setRowCount(1)
             self.table_where.removeRow(self.row_where)
