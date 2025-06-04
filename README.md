@@ -13,7 +13,7 @@
 ### <span style="color: blue;">Requirements</span>:
 
 - PyQt6
-- Pandas
+- Pandas 2.2.3
 - Python 3.10 or higher
 
 For this example I have used this database:<br />
