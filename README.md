@@ -112,7 +112,7 @@ Each tab follows the same workflow:
 ## Project Structure
 
 ```
-db-browser-sqlite/
+sqlite-browser/
 │
 ├── browser_sql.py              # Entry point — main window and tab orchestration
 │
