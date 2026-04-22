@@ -242,4 +242,4 @@ ConnectDb  ←  TableSelect, TableWhere, TableJoin, TableGroupBy, …
 
 ## License
 
-This project is released under the [MIT License](LICENSE).
+This project is released under the MIT License.
